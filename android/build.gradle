@@ -151,6 +151,6 @@ dependencies {
     def compatMediaVersion = compatibleVersion('compatMediaVersion', DEFAULT_MEDIA_VERSION)
     implementation "androidx.media:media:${compatMediaVersion}"
 
-    implementation 'com.google.guava:guava:31.0.1-android'
+    implementation 'com.google.guava:guava:31.1-jre'
 
 }
